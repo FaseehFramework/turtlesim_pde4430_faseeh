@@ -27,6 +27,7 @@ setup(
             'gostr = turtlesim_pde4430_faseeh.straight_line:main' ,
             'gocircle = turtlesim_pde4430_faseeh.circle:main' ,
             'go8 = turtlesim_pde4430_faseeh.eight:main' ,
+            'goroomba = turtlesim_pde4430_faseeh.roomba:main' ,
         ],
     },
 )
