@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'gostr = turtlesim_pde4430_faseeh.straight_line:main' ,
+            'gocircle = turtlesim_pde4430_faseeh.circle:main' ,
         ],
     },
 )
