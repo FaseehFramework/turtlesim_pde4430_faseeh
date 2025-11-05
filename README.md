@@ -24,30 +24,34 @@ average rate: 23.029
   r: 179
   g: 184
   b: 255
+  
   ---
 **setup**
 1. ensure this package (turtlesim_pde4430_faseeh) is located in your src in your ROS 2 workspace
 2. Navigate to the root of your workspace and build the package
  `colcon build --packages-select turtlesim_pde4430_faseeh`
-3. dont forget to source your workspace's setup file
-   `source install/setup.bash `
-   ---
+4. dont forget to source your workspace's setup file
+   `source install/setup.bash`
+   
+---
+
 ### For all exercises, you must have the TurtleSim simulator running in its own terminal. `ros2 run turtlesim turtlesim_node`
+
 ---
 ## TASK 2
 1. What it does: Moves the turtle forward in a straight line indefinitely.
-How to Run: `ros2 run turtlesim_pde4430_fas gostr`
+How to Run: `ros2 run turtlesim_pde4430_faseeh gostr`
 2. What it does: Moves the turtle in a continuous circle at a fixed radius.
-How to Run: `ros2 run turtlesim_pde4430_fas gocircle`
+How to Run: `ros2 run turtlesim_pde4430_faseeh gocircle`
 3. What it does: Moves the turtle in a continuous figure-eight pattern by reversing its angular velocity after a set time.
-How to Run: `ros2 run turtlesim_pde4430_fas go8`
+How to Run: `ros2 run turtlesim_pde4430_faseeh go8`
 4. What it does: A roomba. The turtle moves straight until it detects a wall, then reverses and turns to a new direction.
-How to Run: `ros2 run turtlesim_pde4430_fas goroomba`
+How to Run: `ros2 run turtlesim_pde4430_faseeh goroomba`
 5. What it does: A lawn mower. The turtle spawns at 4 corners and cleans the entire area in an S pattern.
-How to Run: `ros2 run turtlesim_pde4430_fas roomba4x`
+How to Run: `ros2 run turtlesim_pde4430_faseeh roomba4x`
 ---
 ## TASK 3
 1. What it does: Prompts the user in the terminal at startup to enter a desired linear and angular speed. It then drives the turtle at those speeds.
-How to Run: `ros2 run turtlesim_pde4430_fas user_go`
+How to Run: `ros2 run turtlesim_pde4430_faseeh user_go`
 2. What it does: Prompts the user in the terminal at startup for a target (X, Y) coordinate. It uses a Proportional controller to autonomously navigate the turtle to that goal and then stops.
-How to Run: `ros2 run turtlesim_pde4430_fas go_goal`
+How to Run: `ros2 run turtlesim_pde4430_faseeh go_goal`
