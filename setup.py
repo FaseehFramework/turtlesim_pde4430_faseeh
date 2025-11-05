@@ -29,6 +29,8 @@ setup(
             'go8 = turtlesim_pde4430_faseeh.eight:main' ,
             'goroomba = turtlesim_pde4430_faseeh.roomba:main' ,
             'roomba4x = turtlesim_pde4430_faseeh.roomba4x:main' ,
+            'user_go = turtlesim_pde4430_faseeh.user_input_move:main' ,
+            'go_goal = turtlesim_pde4430_faseeh.go_goal:main',
         ],
     },
 )
