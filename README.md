@@ -49,6 +49,16 @@ How to Run: `ros2 run turtlesim_pde4430_faseeh go8`
 How to Run: `ros2 run turtlesim_pde4430_faseeh goroomba`
 5. What it does: A lawn mower. The turtle spawns at 4 corners and cleans the entire area in an S pattern.
 How to Run: `ros2 run turtlesim_pde4430_faseeh roomba4x`
+add another 3 more terminals and run these in each:
+# Spawn turtle2 (top-right, facing left)
+`ros2 service call /spawn turtlesim/srv/Spawn "{x: 10.0, y: 10.0, theta: 3.14159, name: 'turtle2'}"`
+
+# Spawn turtle3 (bottom-left, facing right)
+`ros2 service call /spawn turtlesim/srv/Spawn "{x: 1.0, y: 1.0, theta: 0.0, name: 'turtle3'}"`
+
+# Spawn turtle4 (bottom-right, facing left)
+`ros2 service call /spawn turtlesim/srv/Spawn "{x: 10.0, y: 1.0, theta: 3.14159, name: 'turtle4'}"` 
+
 ---
 ## TASK 3
 1. What it does: Prompts the user in the terminal at startup to enter a desired linear and angular speed. It then drives the turtle at those speeds.
